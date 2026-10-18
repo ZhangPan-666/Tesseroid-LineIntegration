@@ -1,0 +1,14 @@
+#!/bin/bash
+# Generic SLURM example. Edit the resource requests for your cluster.
+#SBATCH --job-name=TLI
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=1
+#SBATCH --output=TLI-%j.out
+#SBATCH --error=TLI-%j.err
+set -euo pipefail
+# Load your cluster's compiler/MPI modules before submitting.
+# Submit with: sbatch --export=ALL,EXE=/absolute/path/to/executable,WORKDIR=/path/to/run run.pbs
+: "${EXE:?Set EXE to the executable's absolute path}"
+cd "${WORKDIR:-${SLURM_SUBMIT_DIR:-.}}"
+export OMP_NUM_THREADS=1
+srun --ntasks="${SLURM_NTASKS:-4}" "$EXE"

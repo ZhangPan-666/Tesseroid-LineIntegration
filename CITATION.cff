@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when using this implementation."
+type: software
+title: "Tesseroid Line Integration: gravity and magnetic forward modelling"
+authors:
+  - family-names: Zhang
+    given-names: Pan
+  - family-names: Du
+    given-names: Jinsong
+license: MIT
+abstract: "C++17 and MATLAB implementation of gauge-based tesseroid line integration through third-order gravity derivatives, with a hybrid TLI-MMSI shell method."
+keywords:
+  - tesseroid
+  - gravity
+  - magnetization
+  - line integration
+  - geodesy

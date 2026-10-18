@@ -1,0 +1,42 @@
+Key,Value,Description
+test1_100km_time_1d,540.6066913,Summed 1-D variable-precision runtime (s)
+test1_100km_time_2d,7965.0974669,Summed 2-D variable-precision runtime (s)
+test1_100km_time_3d,9716.3746804,Summed 3-D variable-precision runtime (s)
+test1_100km_speedup,17.9730936312219,3-D runtime divided by 1-D runtime
+test1_400km_time_1d,478.5714959,Summed 1-D variable-precision runtime (s)
+test1_400km_time_2d,4821.093739,Summed 2-D variable-precision runtime (s)
+test1_400km_time_3d,6496.5812471,Summed 3-D variable-precision runtime (s)
+test1_400km_speedup,13.5749439796504,3-D runtime divided by 1-D runtime
+test1_overall_max_rel3d2d,1.04891505711475e-23,Maximum componentwise relative difference across both heights: 2-D vs 3-D
+test1_overall_max_rel3d1d,1.26113187431002e-21,Maximum componentwise relative difference across both heights: 1-D vs 3-D
+test1_overall_max_rel3dCpp,7.75636154794924e-13,Maximum componentwise relative difference across both heights: double-precision TLI vs 3-D
+test2_worst_component_rel_rmse,2.48247072704999e-11,Largest componentwise relative-error RMSE; component=Vzzz
+test3_worst_component_rel_rmse,2.65497990990503e-13,Largest componentwise relative-error RMSE; component=Vxxz
+test4_worst_component_rel_rmse,1.82330398070635e-11,Largest componentwise relative-error RMSE; component=Vyyz
+test5_worst_component_rel_rmse,2.55093627586675e-11,Largest componentwise relative-error RMSE; component=Vzzz
+test6_nonfinite_count,0,Nonfinite shell-error count
+test6_order0_max_abs,3.52039933204651e-07,Largest pointwise absolute error at derivative order 0; component=V
+test6_order1_max_abs,5.53086465515662e-11,Largest pointwise absolute error at derivative order 1; component=Vz
+test6_order2_max_abs,1.74443792744228e-14,Largest pointwise absolute error at derivative order 2; component=Vzz
+test6_order3_max_abs,8.28059409235804e-18,Largest pointwise absolute error at derivative order 3; component=Vzzz
+test7_nonfinite_count,0,Nonfinite shell-error count
+test7_order0_max_abs,3.44589352607727e-08,Largest pointwise absolute error at derivative order 0; component=V
+test7_order1_max_abs,0,Largest pointwise absolute error at derivative order 1; component=Vx
+test7_order2_max_abs,0,Largest pointwise absolute error at derivative order 2; component=Vxx
+test7_order3_max_abs,0,Largest pointwise absolute error at derivative order 3; component=Vxxx
+test7_all_derivatives_exact_zero,1,One if all 19 derivative outputs are exactly zero in double precision
+test7_potential_abs_error,3.44589352607727e-08,Absolute potential error in the shell cavity
+test8_nonfinite_count,0,Nonfinite shell-error count
+test8_order0_max_abs,1.1730007827282e-05,Largest pointwise absolute error at derivative order 0; component=V
+test8_order1_max_abs,1.29719524011307e-09,Largest pointwise absolute error at derivative order 1; component=Vz
+test8_order2_max_abs,1.22035714866797e-12,Largest pointwise absolute error at derivative order 2; component=Vzz
+test8_order3_max_abs,3.29597460435593e-16,Largest pointwise absolute error at derivative order 3; component=Vzzz
+test9_second_trace_max,1.12917986072603e-09,Maximum absolute Hessian-trace residual
+test9_largest_differentiated_trace_max,8.09548095226376e-10,Largest differentiated-trace residual; identity=Vxxz+Vyyz+Vzzz
+test9_second_trace_count_gt_1e8,0,Number of Hessian-trace residuals greater than 1e-8
+test10_second_trace_max,1.04754116492245e-09,Maximum absolute Hessian-trace residual
+test10_largest_differentiated_trace_max,7.28973992281112e-10,Largest differentiated-trace residual; identity=Vxxz+Vyyz+Vzzz
+test10_second_trace_count_gt_1e8,0,Number of Hessian-trace residuals greater than 1e-8
+test11_second_trace_max,1.78614456558535e-10,Maximum absolute Hessian-trace residual
+test11_largest_differentiated_trace_max,8.09617226233718e-11,Largest differentiated-trace residual; identity=Vxxx+Vxyy+Vxzz
+test11_second_trace_count_gt_1e8,0,Number of Hessian-trace residuals greater than 1e-8
