@@ -58,3 +58,7 @@ The two header directories contain distinct kernel variants sharing the `Tessero
 ## Citation and license
 
 Use [CITATION.cff](CITATION.cff) for software authorship and the manuscript title above for the associated research. Record the final publication DOI and archive identifier when they are assigned. Software is distributed under the [MIT License](LICENSE). Third-party inputs retain their own terms; this license does not grant rights to external datasets or map assets.
+
+## Delivery synchronization
+
+This public repository is the canonical release record. Every later change to the source code, supplementary PDFs, figures, data documentation, or README files must be rebuilt where applicable, committed, and pushed to the `main` branch before delivery. A local-only change or a package that differs from the current GitHub contents is not a release version.
