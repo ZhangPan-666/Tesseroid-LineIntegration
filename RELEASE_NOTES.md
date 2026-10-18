@@ -8,4 +8,4 @@ Local Windows checks passed: the three CTest tests, ordinary serial/OpenMP/two-r
 
 Attach both source and data ZIPs plus `SHA256SUMS.txt`. The data attachment restores archived outputs when extracted into the source root. It excludes external global source models and map assets. Historical full-grid arrays are not relabelled as fresh calculations of this candidate; exact source-version correspondence and some external reproduction dependencies remain unresolved.
 
-The associated manuscript is by Pan Zhang and Jinsong Du, “An exact line-integral formulation for high-accuracy evaluation of tesseroid potentials and their derivatives through third order.” Add the final manuscript/software DOI and repository URL when assigned.
+The associated manuscript is by Pan Zhang and Jinsong Du, “An exact line-integral formulation for evaluating tesseroid potentials and their derivatives through third order.” The public repository is https://github.com/ZhangPan-666/Tesseroid-LineIntegration; add the final manuscript/software DOI and archive identifier when assigned.
