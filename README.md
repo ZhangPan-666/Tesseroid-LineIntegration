@@ -4,7 +4,7 @@ C++17 and MATLAB code for gravity and magnetic forward modelling in spherical ge
 
 [中文说明](README.zh-CN.md) · [Build](docs/BUILD.md) · [API and units](docs/API.md) · [Method](docs/METHOD.md) · [Reproduction](docs/REPRODUCIBILITY.md) · [Validation](docs/VALIDATION.md)
 
-This is the `0.1.0-rc.1` publication candidate, prepared from the authors' local research snapshot on 2026-10-18. The accompanying manuscript is **“An exact line-integral formulation for high-accuracy evaluation of tesseroid potentials and their derivatives through third order”**, Pan Zhang and Jinsong Du. No publication DOI or repository URL has been assigned in this package.
+This is the `0.1.0-rc.1` publication candidate, prepared from the authors' local research snapshot on 2026-10-18. The accompanying manuscript is **“An exact line-integral formulation for evaluating tesseroid potentials and their derivatives through third order”**, Pan Zhang and Jinsong Du. The public repository is https://github.com/ZhangPan-666/Tesseroid-LineIntegration. A publication DOI has not yet been assigned.
 
 ## Quick start
 
@@ -57,4 +57,4 @@ The two header directories contain distinct kernel variants sharing the `Tessero
 
 ## Citation and license
 
-Use [CITATION.cff](CITATION.cff) for software authorship and the manuscript title above for the associated research. Add the final DOI, repository URL, tag and archive identifier after publication. Software is distributed under the [MIT License](LICENSE). Third-party inputs retain their own terms; this license does not grant rights to external datasets or map assets.
+Use [CITATION.cff](CITATION.cff) for software authorship and the manuscript title above for the associated research. Record the final publication DOI and archive identifier when they are assigned. Software is distributed under the [MIT License](LICENSE). Third-party inputs retain their own terms; this license does not grant rights to external datasets or map assets.
